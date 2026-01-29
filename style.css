@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(
+      rgba(172, 171, 171, 0.6),
+      rgba(172, 171, 171, 0.6)
+    ),
+    url("study.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  height: 100vh;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: #e07a5f;
+}
+
+#save-btn {
+  background: #3d405b;
+}
