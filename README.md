@@ -4,7 +4,7 @@ A simple counter to track study hours: increment the count and save entries whil
 
 ## Live Demo
 
-(Add link here if you have one)
+https://deryucka.github.io/studyhours-counter/
 
 ## Overview
 
